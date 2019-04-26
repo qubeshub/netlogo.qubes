@@ -1,9 +1,8 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -t iontw \
+/usr/bin/invoke_app "$@" -t Ebolamodel \
 			 -w captive \
 			 -u netlogo-5.1.0 \
-			 -u iontw-1.1 \
 			 -C netlogo.sh \
 			 -c filexfer \
-			 -A "--open ${HOME}/netlogo/iontw/IONTW.nlogo"
+			 -A "--open @tool/bin/Ebolamodel.nlogo"
